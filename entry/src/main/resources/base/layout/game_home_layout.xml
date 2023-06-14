@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:game_home"
+    ohos:alignment="vertical_center|horizontal_center">
+
+    <TableLayout
+        ohos:id="$+id:tabelHome"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:top_margin="70vp"
+        ohos:padding="10vp"
+        ohos:row_count="2"
+        ohos:column_count="4"
+        ohos:layout_alignment="horizontal_center"
+        ohos:alignment_type="align_edges">
+
+
+        <Button
+            ohos:id="$+id:btn3"
+            ohos:height="0"
+            ohos:width="0"
+            ohos:text="3X3"
+            ohos:hint="3"
+            ohos:text_color="#FF473030"
+            ohos:background_element="$graphic:circle_button_element"
+            ohos:text_size="26fp"
+            ohos:text_alignment="center"
+            ohos:text_weight="600"/>
+        <Button
+            ohos:id="$+id:btn4"
+            ohos:height="0"
+            ohos:width="0"
+            ohos:text="4X4"
+            ohos:hint="4"
+            ohos:text_color="#FF473030"
+            ohos:background_element="$graphic:circle_button_element"
+            ohos:text_size="26fp"
+            ohos:text_alignment="center"
+            ohos:text_weight="600"/>
+        <Button
+            ohos:id="$+id:btn5"
+            ohos:height="0"
+            ohos:width="0"
+            ohos:text="5X5"
+            ohos:hint="5"
+            ohos:text_color="#FF473030"
+            ohos:background_element="$graphic:circle_button_element"
+            ohos:text_size="26fp"
+            ohos:text_alignment="center"
+            ohos:text_weight="600"/>
+
+        <Button
+            ohos:id="$+id:btn6"
+            ohos:height="0"
+            ohos:width="0"
+            ohos:text="6X6"
+            ohos:hint="6"
+            ohos:text_color="#FF473030"
+            ohos:background_element="$graphic:circle_button_element"
+            ohos:text_size="26fp"
+            ohos:text_alignment="center"
+            ohos:text_weight="600"/>
+        <Button
+            ohos:id="$+id:btn7"
+            ohos:height="0"
+            ohos:width="0"
+            ohos:text="7X7"
+            ohos:hint="7"
+            ohos:text_color="#FF473030"
+            ohos:background_element="$graphic:circle_button_element"
+            ohos:text_size="26fp"
+            ohos:text_alignment="center"
+            ohos:text_weight="600"/>
+
+        <Button
+            ohos:id="$+id:btn8"
+            ohos:height="0"
+            ohos:width="0"
+            ohos:text="8X8"
+            ohos:hint="8"
+            ohos:text_color="#FF473030"
+            ohos:background_element="$graphic:circle_button_element"
+            ohos:text_size="26fp"
+            ohos:text_alignment="center"
+            ohos:text_weight="600"/>
+        <Button
+            ohos:id="$+id:btn9"
+            ohos:height="0"
+            ohos:width="0"
+            ohos:text="9X9"
+            ohos:hint="9"
+            ohos:text_color="#FF473030"
+            ohos:background_element="$graphic:circle_button_element"
+            ohos:text_size="26fp"
+            ohos:text_alignment="center"
+            ohos:text_weight="600"/>
+        <Button
+            ohos:id="$+id:btn10"
+            ohos:height="0"
+            ohos:width="0"
+            ohos:text="占位"
+            ohos:hint=""
+            ohos:text_color="#FF473030"
+            ohos:background_element="$graphic:circle_button_element"
+            ohos:text_size="26fp"
+            ohos:text_alignment="center"
+            ohos:text_weight="600"/>
+
+    </TableLayout>
+
+</DirectionalLayout>

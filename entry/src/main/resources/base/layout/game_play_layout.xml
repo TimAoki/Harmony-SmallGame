@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="vertical_center">
+
+    <DependentLayout
+        ohos:top_margin="60vp"
+        ohos:height="80vp"
+        ohos:width="match_parent"
+        ohos:padding="10vp"
+        ohos:alignment="vertical_center"
+        ohos:background_element="#FFD4A1A1">
+        <Image
+            ohos:id="$+id:imgBack"
+            ohos:align_parent_left="true"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:image_src="$media:back"></Image>
+        <Text
+            ohos:id="$+id:title"
+            ohos:left_margin="60vp"
+            ohos:right_of="$media:back"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="20fp"
+            ohos:text="$string:entry_MainAbility"></Text>
+    </DependentLayout>
+
+    <TableLayout
+        ohos:id="$+id:table"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:padding="10vp">
+    </TableLayout>
+    
+    <DirectionalLayout
+        ohos:height="180px"
+        ohos:width="match_parent"
+        ohos:bottom_margin="70vp"
+        ohos:padding="10vp"
+        ohos:orientation="horizontal">
+        
+        <Button
+            ohos:id="$+id:btnTrophy"
+            ohos:text_size="14fp"
+            ohos:width="match_content"
+            ohos:height="45fp"
+            ohos:background_element="$graphic:capsule_button_element"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="15vp"
+            ohos:left_padding="15vp"
+            ohos:top_padding="10vp"
+            ohos:bottom_padding="10vp"
+            ohos:weight="1"
+            ohos:text_color="#FFFFFF"
+            ohos:text=""
+            ohos:element_left="$media:right"/>
+
+        <Button
+            ohos:id="$+id:btnTime"
+            ohos:text_size="14fp"
+            ohos:width="match_content"
+            ohos:height="45fp"
+            ohos:background_element="$graphic:capsule_button_element"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="15vp"
+            ohos:left_padding="15vp"
+            ohos:top_padding="10vp"
+            ohos:bottom_padding="10vp"
+            ohos:weight="1"
+            ohos:text_color="#FFFFFF"
+            ohos:text="计时中"/>
+
+        <Button
+            ohos:id="$+id:btnHelp"
+            ohos:text_size="14fp"
+            ohos:width="match_content"
+            ohos:height="45fp"
+            ohos:background_element="$graphic:capsule_button_element"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="15vp"
+            ohos:left_padding="15vp"
+            ohos:top_padding="10vp"
+            ohos:bottom_padding="10vp"
+            ohos:weight="1"
+            ohos:text_color="#FFFFFF"
+            ohos:text="不会点这儿"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>

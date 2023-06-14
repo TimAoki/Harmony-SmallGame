@@ -1,0 +1,57 @@
+{
+  "app": {
+    "bundleName": "com.xh.harmony",
+    "vendor": "xh",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.01"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.xh.harmony",
+    "name": ".MyApplication",
+    "mainAbility": "com.xh.harmony.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.NoTitleBar",
+          "extra": ""
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "action.system.play"
+            ]
+          }
+        ],
+        "orientation": "portrait",
+        "visible": true,
+        "name": "com.xh.harmony.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

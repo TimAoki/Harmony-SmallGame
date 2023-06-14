@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "dian jiu wan shi er"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PlayAbility",
+      "value": "entry_PlayAbility"
+    },
+    {
+      "name": "playability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "playability_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

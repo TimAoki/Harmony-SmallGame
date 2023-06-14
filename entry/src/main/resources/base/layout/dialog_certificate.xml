@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="949px"
+    ohos:width="988px"
+    ohos:background_element="$media:certificate"
+    ohos:alignment="horizontal_center|vertical_center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:txtTime"
+        ohos:top_margin="140vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="50fp"
+        ohos:text_color="#FFDD9E73"
+        ohos:text="3.788"/>
+
+    <DirectionalLayout
+        ohos:top_margin="20vp"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="horizontal_center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:btnGoHome"
+            ohos:height="255px"
+            ohos:width="255px"
+            ohos:image_src="$media:home"></Image>
+
+
+        <Image
+            ohos:id="$+id:btnTryAgain"
+            ohos:height="255px"
+            ohos:width="255px"
+            ohos:image_src="$media:backward"></Image>
+    </DirectionalLayout>
+
+</DirectionalLayout>
